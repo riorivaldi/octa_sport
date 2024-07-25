@@ -3,15 +3,12 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <div className="fixed w-full">
-      <div className="bg-opacity-90 p-6 flex flex-col w-full bg-white ">
-       
-
+    <div className="fixed w-full z-10">
+      <div className="bg-opacity-90 py-6 flex flex-col w-full bg-white ">
         <h1 className="mb-2 text-black  cursor-pointer text-xs mx-auto">
           GET SHIPPING DISCOUNT OF IDR 9.000 WITH MINIMUM PURCHASE OF IDR
           500.000
         </h1>
-       
         <p className="border-b-2 border-black"></p>
         <div>
           <div>
