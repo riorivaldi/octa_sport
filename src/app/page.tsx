@@ -6,7 +6,6 @@ import Image from 'next/image'
 export default function page() {
   return (
     <div>
-      <Navbar />
       <div className=" items-center min-h-screen w-full ">
         <div className="grid grid-cols-2">
           <div className="">
@@ -109,9 +108,9 @@ export default function page() {
         </div>
         <div className="flex flex-row">
           <div className="flex-col ml-20">
-            <h3 className=" font-black text-center ">NIKE</h3>
+            <p className=" font-black text-center ">NIKE</p>
             <div className="mb-10 ml-1 flex-col">
-              <h3 className="text-xs">nike zoom superfly 9 football boots </h3>
+              <p className="text-xs">nike zoom superfly 9 football boots </p>
               <div className="ml-14">
                 <p className="text-xs">RP.1.599.000.</p>
               </div>
@@ -191,7 +190,7 @@ export default function page() {
                 className="h-auto w-full opacity-30"
               />
             </div>
-            <div className="-translate-y-40 flex">
+            <div className="-translate-y-40 flex ml-32">
               <Image
                 src="/img/Map pin.svg"
                 alt="icon"
@@ -199,13 +198,55 @@ export default function page() {
                 height={50}
                 className="h-auto"
               />
+              <div className="-translate-y-40 flex ml-32"></div>
               <Image
-                src="/img/Rectangle 37.svg"
+                src="/img/Phone Call.svg"
+                alt="icon"
+                width={55}
+                height={55}
+                className="h-auto"
+              />
+              <div className="-translate-y-40 flex ml-36"></div>
+              <Image
+                src="/img/Instagram.svg"
+                alt="icon"
+                width={65}
+                height={65}
+                className="h-auto"
+              />
+              <div className="-translate-y-40 flex ml-20"></div>
+              <Image
+                src="/img/Rectangle 39.svg"
                 alt="icon"
                 width={100}
                 height={100}
                 className="h-auto"
               />
+              <div className="-translate-y-40 flex ml-20"></div>
+              <Image
+                src="/img/Rectangle 37.svg"
+                alt="icon"
+                width={110}
+                height={110}
+                className="h-auto"
+              />
+            </div>
+            <div className="flex -translate-y-36">
+              <p className="text-base -translate-y-7 ml-20">
+                JL.Amir machmud <p>No.763,Cimahi</p>
+              </p>
+            </div>
+            <div className="flex -translate-y-36">
+              <p className="text-base -translate-y-16 ml-72">0877-2511-0888</p>
+            </div>
+            <div className="-translate-y-36">
+              <p className="text-base -translate-y-24 mr-44">octasport.id</p>
+            </div>
+            <div className="-translate-y-36">
+              <p className="text-base -translate-y-28 ml-36">Octasports</p>
+            </div>
+            <div className="-translate-y-36">
+              <p className="text-base -translate-y-36 ml-[500px]">Octa sports</p>
             </div>
             <div>OFFICIAL PARTNER :</div>
             <div className="flex py-10 ml-52">

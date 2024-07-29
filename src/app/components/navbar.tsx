@@ -1,15 +1,31 @@
+'use client'
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname, useRouter } from "next/navigation";
+
 
 const Navbar = () => {
+const Pathname = usePathname();
+const isFOOTBALPage = Pathname === "/Footbal";
+
   return (
     <div className="fixed w-full z-10">
-      <div className="bg-opacity-90 py-6 flex flex-col w-full bg-white ">
-        <h1 className="mb-2 text-black text-sm mx-auto">
+      <div
+        className={`bg-opacity-90 py-6 flex flex-col w-full bg-white`}
+      >
+        <h1
+          className={`mb-2 text-black text-sm mx-auto  ${
+            isFOOTBALPage ? "hidden" : "flex"
+          }`}
+        >
           GET SHIPPING DISCOUNT OF IDR 9.000 WITH MINIMUM PURCHASE OF IDR
           500.000
         </h1>
-        <p className="border-b-2 border-black"></p>
+        <p
+          className={`border-b-2 border-black  ${
+            isFOOTBALPage ? "hidden" : "flex"
+          }`}
+        ></p>
         <div>
           <div>
             <nav className="fixed bg-white bg-opacity-95 w-full">
@@ -28,31 +44,31 @@ const Navbar = () => {
                       OCTA SPORT
                     </div>
                   </Link>
-                  <div className="flex grid-cols-2 mb-5 items-center justify-between space-x-4 top-10">
-                    <Link href="#">
-                      <p className="text-lg font-bold text-black hover:text-blue-900 ">
+                  <div className="flex grid-cols-2 mb-5 items-center justify-between space-x-4 top-10 flex-row">
+                    <Link href="/">
+                      <span className="text-lg font-bold text-black hover:text-blue-900 ">
                         HOME
-                      </p>
+                      </span>
                     </Link>
-                    <Link href="#FOOTBAL">
-                      <p className="text-lg font-bold text-black hover:text-blue-900">
+                    <Link href="/Footbal">
+                      <span className="text-lg font-bold text-black hover:text-blue-900">
                         FOOTBAL
-                      </p>
+                      </span>
                     </Link>
                     <Link href="#FUTSAL">
-                      <p className="text-lg font-bold text-black hover:text-blue-900">
+                      <span className="text-lg font-bold text-black hover:text-blue-900">
                         FUTSAL
-                      </p>
+                      </span>
                     </Link>
                     <Link href="#RUNNING">
-                      <p className="text-lg font-bold text-black hover:text-blue-900">
+                      <span className="text-lg font-bold text-black hover:text-blue-900">
                         RUNNING
-                      </p>
+                      </span>
                     </Link>
                     <Link href="#ACCESSORIES">
-                      <p className="text-lg font-bold text-black hover:text-blue-900">
+                      <span className="text-lg font-bold text-black hover:text-blue-900">
                         ACCESSORIES
-                      </p>
+                      </span>
                     </Link>
                   </div>
                 </div>
