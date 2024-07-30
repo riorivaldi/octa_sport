@@ -108,7 +108,7 @@ export default function page() {
         </div>
         <div className="flex flex-row">
           <div className="flex-col ml-20">
-            <p className=" font-black text-center ">NIKE</p>
+            <p className=" font-black text-center text-[#817D7D]">NIKE</p>
             <div className="mb-10 ml-1 flex-col">
               <p className="text-xs">nike zoom superfly 9 football boots </p>
               <div className="ml-14">
@@ -118,7 +118,7 @@ export default function page() {
           </div>
           <div className="flex flex-row">
             <div className="flex-col ml-10">
-              <h3 className=" font-black text-center">PUMA</h3>
+              <h3 className=" font-black text-center text-[#817D7D]">PUMA</h3>
               <div className="mb-10">
                 <p className="text-xs">
                   Puma Fulture Ultimate Cage Turf 107364 01{" "}
@@ -131,9 +131,11 @@ export default function page() {
           </div>
           <div className="flex flex-row">
             <div className="flex-col ml-10">
-              <p className=" font-black text-center">ORTUSEIGHT</p>
+              <p className=" font-black text-center text-[#817D7D]">
+                ORTUSEIGHT
+              </p>
               <div className="mb-10">
-                <p className="text-xs">Ortuseight Running HYPERFUSE 2.1</p>
+                <p className="text-xs ">Ortuseight Running HYPERFUSE 2.1</p>
                 <div className="ml-16">
                   <p className="text-xs">RP.550.000</p>
                 </div>
@@ -142,11 +144,13 @@ export default function page() {
           </div>
           <div className="flex flex-row">
             <div className="flex-col ml-32">
-              <h3 className=" font-black text-center">ORTUSEIGHT</h3>
+              <h3 className=" font-black text-center text-[#817D7D]">
+                ORTUSEIGHT
+              </h3>
               <div className="mb-10">
                 <p className="text-xs">Lightning Fs Ball White Ortrange </p>
                 <div className="ml-14">
-                  <p className="text-xs">Rp.175.000</p>
+                  <p className="text-[#0195FE]">Rp.175.000</p> <s className='ml-10 text-xs'>Rp.230.000</s>
                 </div>
               </div>
             </div>
@@ -157,7 +161,7 @@ export default function page() {
             OCTA SPORT:PUSAT SEPATU BOLA,FUTSAL DAN LARI <p>ORIGINAL</p>
           </p>
           <div className="text-2xl">
-            <p className="px-8">
+            <p className="px-8 ">
               sudah ada banyak toko online yang menjual perlengkapan olahraga
               khususnya sepatu futsal,sepatu sepak bola hingga sepatu lari tapi
               tanpa jaminan keaslian barang dan kualitas yang tidak bisa
@@ -198,7 +202,7 @@ export default function page() {
                 height={50}
                 className="h-auto"
               />
-              <div className="-translate-y-40 flex ml-32"></div>
+              <div className="-translate-y-40 flex ml-40"></div>
               <Image
                 src="/img/Phone Call.svg"
                 alt="icon"
@@ -206,7 +210,7 @@ export default function page() {
                 height={55}
                 className="h-auto"
               />
-              <div className="-translate-y-40 flex ml-36"></div>
+              <div className="-translate-y-40 flex ml-40"></div>
               <Image
                 src="/img/Instagram.svg"
                 alt="icon"
@@ -214,7 +218,7 @@ export default function page() {
                 height={65}
                 className="h-auto"
               />
-              <div className="-translate-y-40 flex ml-20"></div>
+              <div className="-translate-y-40 flex ml-40"></div>
               <Image
                 src="/img/Rectangle 39.svg"
                 alt="icon"
@@ -222,7 +226,7 @@ export default function page() {
                 height={100}
                 className="h-auto"
               />
-              <div className="-translate-y-40 flex ml-20"></div>
+              <div className="-translate-y-40 flex ml-40"></div>
               <Image
                 src="/img/Rectangle 37.svg"
                 alt="icon"
@@ -237,61 +241,69 @@ export default function page() {
               </p>
             </div>
             <div className="flex -translate-y-36">
-              <p className="text-base -translate-y-16 ml-72">0877-2511-0888</p>
+              <p className="text-base -translate-y-16 ml-[300px]">
+                0877-2511-0888
+              </p>
             </div>
             <div className="-translate-y-36">
-              <p className="text-base -translate-y-24 mr-44">octasport.id</p>
+              <p className="text-base -translate-y-24 mr-[100px]">
+                octasport.id
+              </p>
+            </div>
+            <div className="-translate-y-40">
+              <p className="text-base -translate-y-28 ml-[380px]">Octasports</p>
             </div>
             <div className="-translate-y-36">
-              <p className="text-base -translate-y-28 ml-36">Octasports</p>
+              <p className="text-base -translate-y-36 ml-[930px]">
+                Octa sports
+              </p>
             </div>
-            <div className="-translate-y-36">
-              <p className="text-base -translate-y-36 ml-[500px]">Octa sports</p>
-            </div>
-            <div>OFFICIAL PARTNER :</div>
-            <div className="flex py-10 ml-52">
-              <Image
-                src="/img/Adidas.jfif 1.svg"
-                alt="icon"
-                width={150}
-                height={150}
-                className="h-auto"
-              />
-              <Image
-                src="/img/Rectangle 22.svg"
-                alt="icon"
-                width={150}
-                height={150}
-                className="h-auto"
-              />
-              <Image
-                src="/img/Rectangle 23.svg"
-                alt="icon"
-                width={150}
-                height={150}
-                className="h-auto"
-              />
-              <Image
-                src="/img/Rectangle 24.svg"
-                alt="icon"
-                width={150}
-                height={150}
-                className="h-auto"
-              />
-              <Image
-                src="/img/Rectangle 25.svg"
-                alt="icon"
-                width={150}
-                height={150}
-                className="h-auto"
-              />
-              <Image
-                src="/img/Rectangle 26.svg"
-                alt="icon"
-                width={150}
-                height={150}
-                className="h-auto"
-              />
+            <div className="-translate-y-28">
+              <div>OFFICIAL PARTNER :</div>
+              <div className="flex py-10 ml-52">
+                <Image
+                  src="/img/Adidas.jfif 1.svg"
+                  alt="icon"
+                  width={150}
+                  height={150}
+                  className="h-auto"
+                />
+                <Image
+                  src="/img/Rectangle 22.svg"
+                  alt="icon"
+                  width={150}
+                  height={150}
+                  className="h-auto"
+                />
+                <Image
+                  src="/img/Rectangle 23.svg"
+                  alt="icon"
+                  width={150}
+                  height={150}
+                  className="h-auto"
+                />
+                <Image
+                  src="/img/Rectangle 24.svg"
+                  alt="icon"
+                  width={150}
+                  height={150}
+                  className="h-auto"
+                />
+                <Image
+                  src="/img/Rectangle 25.svg"
+                  alt="icon"
+                  width={150}
+                  height={150}
+                  className="h-auto"
+                />
+                <Image
+                  src="/img/Rectangle 26.svg"
+                  alt="icon"
+                  width={150}
+                  height={150}
+                  className="h-auto"
+                />
+              </div>
             </div>
           </div>
         </div>

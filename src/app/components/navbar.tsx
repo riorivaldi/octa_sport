@@ -7,15 +7,14 @@ import { usePathname, useRouter } from "next/navigation";
 const Navbar = () => {
 const Pathname = usePathname();
 const isFOOTBALPage = Pathname === "/Footbal";
+const isPumaPage = Pathname === "/Puma";
 
   return (
     <div className="fixed w-full z-10">
-      <div
-        className={`bg-opacity-90 py-6 flex flex-col w-full bg-white`}
-      >
+      <div className={`bg-opacity-90 py-6 flex flex-col w-full bg-white`}>
         <h1
           className={`mb-2 text-black text-sm mx-auto  ${
-            isFOOTBALPage ? "hidden" : "flex"
+            isFOOTBALPage || isPumaPage ? "hidden" : "flex"
           }`}
         >
           GET SHIPPING DISCOUNT OF IDR 9.000 WITH MINIMUM PURCHASE OF IDR
@@ -23,7 +22,7 @@ const isFOOTBALPage = Pathname === "/Footbal";
         </h1>
         <p
           className={`border-b-2 border-black  ${
-            isFOOTBALPage ? "hidden" : "flex"
+            isFOOTBALPage || isPumaPage ? "hidden" : "flex"
           }`}
         ></p>
         <div>
